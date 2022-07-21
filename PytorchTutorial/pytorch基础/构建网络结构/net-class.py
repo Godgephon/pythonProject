@@ -1,9 +1,9 @@
 import torch.nn as nn
 
 
-class myNet(nn.Module):
+class MyNet(nn.Module):
     def __init__(self):
-        super(myNet, self).__init__()
+        super(MyNet, self).__init__()
         self.net = nn.Sequential(
             nn.Linear(2, 4),
             nn.Sigmoid(),
@@ -18,5 +18,5 @@ class myNet(nn.Module):
         return output
 
 
-net = myNet()
+net = MyNet()
 print(net)

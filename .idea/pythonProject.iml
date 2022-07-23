@@ -5,9 +5,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
-  <component name="PyDocumentationSettings">
-    <option name="renderExternalDocumentation" value="true" />
-  </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_FOLDERS">
       <list>
